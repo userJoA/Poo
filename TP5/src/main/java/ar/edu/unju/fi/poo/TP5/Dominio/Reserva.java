@@ -16,12 +16,10 @@ public abstract class Reserva {
 	private Data llegada;
 	
 	private Pasajero pasajero;
-
 	
 	public Reserva() {
 		super();
 	}
-
 
 	public Reserva(Ciudad origen, Ciudad destino, Data salida, Data llegada, Pasajero pasajero) {
 		super();
@@ -33,8 +31,4 @@ public abstract class Reserva {
 		this.llegada = llegada;
 		this.pasajero = pasajero;
 	}
-	
-	
-	
-	
 }
